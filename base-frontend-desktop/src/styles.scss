@@ -1,0 +1,41 @@
+/* Variáveis globais de tema */
+:root {
+  --color-background: #FAFAFA;
+  --color-surface: #F5F5F5;
+  --color-primary: #9C4DFF;
+  --color-secondary: #40C4FF;
+  --color-text-primary: #212121;
+  --color-text-secondary: #616161;
+
+  --bs-primary: var(--color-primary);
+  --bs-secondary: var(--color-secondary);
+  --bs-body-bg: var(--color-background);
+  --bs-body-color: var(--color-text-primary);
+}
+
+/* Tema dark */
+body.dark-theme {
+  --color-background: #121212;
+  --color-surface: #1E1E1E;
+  --color-primary: #7C4DFF;
+  --color-secondary: #00E5FF;
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #B0B0B0;
+
+  --bs-primary: var(--color-primary);
+  --bs-secondary: var(--color-secondary);
+  --bs-body-bg: var(--color-background);
+  --bs-body-color: var(--color-text-primary);
+}
+
+/* Agora importe o Bootstrap já com essas configs */
+@import "bootstrap/scss/bootstrap";
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+

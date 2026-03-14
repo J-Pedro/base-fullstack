@@ -1,0 +1,10 @@
+.login-container {
+  width: 500px;            /* largura fixa */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* sombra */
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+}
+
+.bg-custom{
+  background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);
+}

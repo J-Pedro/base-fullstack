@@ -1,0 +1,29 @@
+<div class="layout">
+  <!-- Header -->
+  <header class="app-header">
+    <h1>Minha Aplicação</h1>
+  </header>
+
+  <div class="layout-body">
+    <!-- Sidebar -->
+    <aside class="app-sidebar">
+      <nav>
+        <ul>
+          <li><a routerLink="/perfil">Dashboard</a></li>
+          <li><a routerLink="/users">Usuários</a></li>
+          <li><a routerLink="/relatorios">Relatórios</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Conteúdo -->
+    <main class="app-content">
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <span>© 2025 - Minha Aplicação</span>
+  </footer>
+</div>
